@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dazai on 減衰曲線</title>
+    <link>https://kubotakumi.github.io/blog/tags/dazai/</link>
+    <description>Recent content in Dazai on 減衰曲線</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>[example.com](https://eample.com)</copyright>
+    <lastBuildDate>Tue, 23 Aug 2022 14:11:59 +0900</lastBuildDate><atom:link href="https://kubotakumi.github.io/blog/tags/dazai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人間失格</title>
+      <link>https://kubotakumi.github.io/blog/posts/a005/</link>
+      <pubDate>Tue, 23 Aug 2022 14:11:59 +0900</pubDate>
+      
+      <guid>https://kubotakumi.github.io/blog/posts/a005/</guid>
+      <description>太宰治『人間失格』冒頭です</description>
+    </item>
+    
+  </channel>
+</rss>

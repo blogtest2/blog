@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="減衰曲線"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://kubotakumi.github.io/blog/posts/a009/"/>
+
+<meta property="og:image" content="https://kubotakumi.github.io/blog/img/test.png"/>
+<meta property="og:image:alt" content="青竹 | 減衰曲線"/>
+<meta property="og:description" content="山本周五郎『青竹』冒頭です"/>
+<meta property="og:site_name" content="減衰曲線"/>
+<meta property="article:published_time" content="2022-08-24 13:18:04 &#43;0900 JST"/>
+<meta name="twitter:card"  content="summary_large_image"/>
+
+<meta name="twitter:image" content="https://kubotakumi.github.io/blog/img/test.png"/>
+<meta name="twitter:title" content="青竹 | 減衰曲線"/>
+<meta name="twitter:description" content="山本周五郎『青竹』冒頭です"/>
+<meta name="description" content="山本周五郎『青竹』冒頭です"/>
+<title>青竹 | 減衰曲線</title>
+<meta name="keywords" content="Undefined">
+<meta name="description" content="山本周五郎『青竹』冒頭です">
+<meta name="author" content="yagitaku">
+<link rel="canonical" href="https://kubotakumi.github.io/blog/posts/a009/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/blog/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://kubotakumi.github.io/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kubotakumi.github.io/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kubotakumi.github.io/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kubotakumi.github.io/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kubotakumi.github.io/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://kubotakumi.github.io/blog/" accesskey="h" title="減衰曲線 (Alt + H)">減衰曲線</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://kubotakumi.github.io/blog/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kubotakumi.github.io/blog/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kubotakumi.github.io/blog/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kubotakumi.github.io/blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kubotakumi.github.io/blog/search/" title="🔎">
+                    <span>🔎</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      青竹
+    </h1>
+    <div class="post-meta"><span title='2022-08-24 13:18:04 +0900 JST'>August 24, 2022</span>&nbsp;·&nbsp;yagitaku
+
+</div>
+    
+    
+    
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="青竹 | 減衰曲線" data-via="tos" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+  </header> 
+  <div class="post-content"><h1 id="一">一<a hidden class="anchor" aria-hidden="true" href="#一">#</a></h1>
+<p>　慶長六年の夏のはじめ、近畿地方の巡察を命ぜられた本多平八郎忠勝は任をはたした帰途、近江のくに佐和山城に井伊直政をたずねて数日滞在した。ふたりは徳川家のはたもとで酒井榊原とともに四将とよばれ、いく戦陣ともに馬をならべて戦ってきたあいだがらである。一日は琵琶湖に舟をうかべて暮し、あくる日は伊吹の山すそで猪狩りをした、また鈴鹿の山へ遠駆けをして野営のいち夜にむかしを偲んだりもした。心たのしく、こうして四五日をすごしたのちいよいよ明日しゅったつというまえの夜だった。城中で催された別れの宴がようやくさかんになりはじめたとき、忠勝がふと思いだしたというようすで、</p>
+<p>「関ヶ原のおりに島津軍の阿多ぶんごを討ちとめた若者はこの席に出ているか」とたずねた。直政はちょっと返辞ができなかった、忠勝のいうその若者が誰だかわからないからである、それでかれは話題をはずして答えた、「阿多豊後という名を聞くと島津惟新を討ちもらしたことを思いだす、もう一歩というところだった、まことおれのこの手で入道の衿がみをもつかむところだった」「まったく、おぬしとはずいぶん戦塵をあびてきたが、あれほどすさまじい合戦はみかたが原いらいであろう」話は関ヶ原のことに集った。</p>
+<p>　慶長五年九月十五日午後一時、金吾中納言ひであきのねがえり反撃によって石田三成の陣は総くずれとなり、午前四時からはじまった合戦はそのときまさに徳川軍の勝ち目を決定した。ほとんど乱戦となった戦場の一角で、本多忠勝と井伊直政とは僅かな手兵のせんとうに馬を駆り、島津惟新義弘の軍へきびしくきりこんでいた。敗勢になりながら、島津の兵はじつによく戦った、しかしいかに善防したところでもはや大勢を挽回することはできない、ついに馬じるしを折り記章を捨てて牧田から西南のほうへと退却をはじめた。追いうちは急だった、惟新義弘はしばしば危地に追いつめられた、それを救うために惟新の子豊久が馬をかえして戦い本多忠勝の兵に討たれた。つぎには侍大将の阿多ぶんご盛淳が追撃兵の前にたちふさがり、――兵庫入道これにあり、島津惟新これにあり。とさけんで義弘の身代りに立った、これにぶつかったのは井伊直政の兵だったが、直政はそれが身代りだということを察し、おのれはなおも馬を煽って惟新を追った。――どうでも入道のしるしをあげるぞ。そう思ってむにむさんに突っこんだ。義弘をまもる兵たちはすでに八十余人にすぎなかった、これが牧田川の岸でめざましく防ぎ戦った、そしてもう一歩というところまできりこんだ直政は敵の銃撃にあって腰を射ぬかれ、惜しくも馬から落ちてしまった、長蛇をめのまえに見つつ逸し去ったのである。このあいだに直政の兵の一部がぶんご盛淳を討ちとめていたのであるが、乱軍のなかのことで誰が功名人であるかわからなかった、名乗って出る者もなかった、それでその部隊ぜんたいの手柄として軍鑑にしるされたのであった。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://kubotakumi.github.io/blog/tags/undefined/">Undefined</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://kubotakumi.github.io/blog/posts/a010/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>青空文庫の提案</span>
+  </a>
+  <a class="next" href="https://kubotakumi.github.io/blog/posts/a001/">
+    <span class="title">Next »</span>
+    <br>
+    <span>test</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span><a href="https://eample.com">example.com</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+     </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
