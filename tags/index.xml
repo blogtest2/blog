@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on 減衰曲線</title>
-    <link>https://kubotakumi.github.io/blog/tags/</link>
+    <link>https://blogtest2.github.io/blog/tags/</link>
     <description>Recent content in Tags on 減衰曲線</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>[example.com](https://eample.com)</copyright>
-    <lastBuildDate>Wed, 24 Aug 2022 13:30:30 +0900</lastBuildDate><atom:link href="https://kubotakumi.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 13:30:30 +0900</lastBuildDate><atom:link href="https://blogtest2.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Undefined</title>
-      <link>https://kubotakumi.github.io/blog/tags/undefined/</link>
+      <link>https://blogtest2.github.io/blog/tags/undefined/</link>
       <pubDate>Wed, 24 Aug 2022 13:30:30 +0900</pubDate>
       
-      <guid>https://kubotakumi.github.io/blog/tags/undefined/</guid>
+      <guid>https://blogtest2.github.io/blog/tags/undefined/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dazai</title>
-      <link>https://kubotakumi.github.io/blog/tags/dazai/</link>
+      <link>https://blogtest2.github.io/blog/tags/dazai/</link>
       <pubDate>Tue, 23 Aug 2022 14:11:59 +0900</pubDate>
       
-      <guid>https://kubotakumi.github.io/blog/tags/dazai/</guid>
+      <guid>https://blogtest2.github.io/blog/tags/dazai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Soseki</title>
-      <link>https://kubotakumi.github.io/blog/tags/soseki/</link>
+      <link>https://blogtest2.github.io/blog/tags/soseki/</link>
       <pubDate>Tue, 23 Aug 2022 14:05:40 +0900</pubDate>
       
-      <guid>https://kubotakumi.github.io/blog/tags/soseki/</guid>
+      <guid>https://blogtest2.github.io/blog/tags/soseki/</guid>
       <description></description>
     </item>
     
