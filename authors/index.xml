@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Authors on 減衰曲線</title>
-    <link>https://tasijiubao.github.io/blog/authors/</link>
+    <link>https://tasijiubao.github.io/blog2/authors/</link>
     <description>Recent content in Authors on 減衰曲線</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>[example.com](https://eample.com)</copyright><atom:link href="https://tasijiubao.github.io/blog/authors/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>[example.com](https://eample.com)</copyright><atom:link href="https://tasijiubao.github.io/blog2/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

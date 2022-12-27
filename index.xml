@@ -2,117 +2,117 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>減衰曲線</title>
-    <link>https://tasijiubao.github.io/blog/</link>
+    <link>https://tasijiubao.github.io/blog2/</link>
     <description>Recent content on 減衰曲線</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>[example.com](https://eample.com)</copyright>
-    <lastBuildDate>Wed, 24 Aug 2022 13:30:30 +0900</lastBuildDate><atom:link href="https://tasijiubao.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 13:30:30 +0900</lastBuildDate><atom:link href="https://tasijiubao.github.io/blog2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>青空文庫の提案</title>
-      <link>https://tasijiubao.github.io/blog/posts/a010/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a010/</link>
       <pubDate>Wed, 24 Aug 2022 13:30:30 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a010/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a010/</guid>
       <description>『青空文庫の提案』の冒頭です</description>
     </item>
     
     <item>
       <title>青竹</title>
-      <link>https://tasijiubao.github.io/blog/posts/a009/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a009/</link>
       <pubDate>Wed, 24 Aug 2022 13:18:04 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a009/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a009/</guid>
       <description>山本周五郎『青竹』冒頭です</description>
     </item>
     
     <item>
       <title>test</title>
-      <link>https://tasijiubao.github.io/blog/posts/a001/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a001/</link>
       <pubDate>Wed, 24 Aug 2022 01:33:48 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a001/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a001/</guid>
       <description>これはテストです．</description>
     </item>
     
     <item>
       <title>銀河鉄道の夜</title>
-      <link>https://tasijiubao.github.io/blog/posts/a007/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a007/</link>
       <pubDate>Tue, 23 Aug 2022 15:15:17 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a007/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a007/</guid>
       <description>宮沢賢治『銀河鉄道の夜』冒頭です</description>
     </item>
     
     <item>
       <title>羅生門</title>
-      <link>https://tasijiubao.github.io/blog/posts/a006/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a006/</link>
       <pubDate>Tue, 23 Aug 2022 14:39:07 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a006/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a006/</guid>
       <description>芥川龍之介『羅生門』冒頭です</description>
     </item>
     
     <item>
       <title>人間失格</title>
-      <link>https://tasijiubao.github.io/blog/posts/a005/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a005/</link>
       <pubDate>Tue, 23 Aug 2022 14:11:59 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a005/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a005/</guid>
       <description>太宰治『人間失格』冒頭です</description>
     </item>
     
     <item>
       <title>ドグラマグラ</title>
-      <link>https://tasijiubao.github.io/blog/posts/a004/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a004/</link>
       <pubDate>Tue, 23 Aug 2022 14:11:42 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a004/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a004/</guid>
       <description>夢野久作『ドグラマグラ』冒頭の巻頭歌です</description>
     </item>
     
     <item>
       <title>こころ</title>
-      <link>https://tasijiubao.github.io/blog/posts/a003/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a003/</link>
       <pubDate>Tue, 23 Aug 2022 14:05:40 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a003/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a003/</guid>
       <description>夏目漱石『こころ』冒頭です</description>
     </item>
     
     <item>
       <title>吾輩は猫である</title>
-      <link>https://tasijiubao.github.io/blog/posts/a002/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a002/</link>
       <pubDate>Tue, 23 Aug 2022 00:49:10 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a002/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a002/</guid>
       <description>夏目漱石『吾輩は猫である』冒頭です</description>
     </item>
     
     <item>
       <title>ちょっと古い技術記事</title>
-      <link>https://tasijiubao.github.io/blog/posts/a012/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a012/</link>
       <pubDate>Mon, 27 Jan 2020 17:43:23 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a012/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a012/</guid>
       <description>No Summary</description>
     </item>
     
     <item>
       <title>ちょっと古い記事</title>
-      <link>https://tasijiubao.github.io/blog/posts/a011/</link>
+      <link>https://tasijiubao.github.io/blog2/posts/a011/</link>
       <pubDate>Wed, 01 Jan 2020 17:27:06 +0900</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/posts/a011/</guid>
+      <guid>https://tasijiubao.github.io/blog2/posts/a011/</guid>
       <description>ちょっと古い記事</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://tasijiubao.github.io/blog/about/</link>
+      <link>https://tasijiubao.github.io/blog2/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tasijiubao.github.io/blog/about/</guid>
+      <guid>https://tasijiubao.github.io/blog2/about/</guid>
       <description>yagitaku </description>
     </item>
     
